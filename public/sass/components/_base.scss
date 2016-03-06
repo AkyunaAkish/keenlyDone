@@ -1,0 +1,42 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+img, embed, object, video{
+  max-width: 100%;
+  height: auto;
+}
+
+.landingDiv {
+  background-image: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=67aed64636699cf66845409d35054fd7');
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+  * {
+    margin: 0;
+  }
+
+  h1 {
+    color: white;
+    text-align: center;
+  }
+
+  .landingMid {
+    color: white;
+    border: 1px solid white;
+    width: 60vw;
+    height: 100vh;
+    font-size: 2em;
+    margin: 0 auto;
+    text-align: center;
+
+    p {
+
+    }
+  }
+
+}
