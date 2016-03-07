@@ -28,3 +28,5 @@ img, embed, object, video {
     font-size: 2em;
     margin: 0 auto;
     text-align: center; }
+    .landingDiv .landingMid .descriptiveP {
+      color: green; }
