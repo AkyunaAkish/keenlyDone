@@ -22,11 +22,28 @@ img, embed, object, video {
     text-align: center; }
   .landingDiv .landingMid {
     color: white;
-    border: 1px solid white;
-    width: 60vw;
+    width: 80vw;
     height: 100vh;
     font-size: 2em;
     margin: 0 auto;
-    text-align: center; }
-    .landingDiv .landingMid .descriptiveP {
-      color: green; }
+    text-align: center;
+    overflow: scroll;
+    text-shadow: 2px 2px dodgerblue; }
+    .landingDiv .landingMid .firstDescriptiveP {
+      margin-top: 5vh; }
+    .landingDiv .landingMid .secondDescriptiveP {
+      margin-top: 2vh; }
+
+.enterButton {
+  background: dodgerblue;
+  border: none;
+  margin-top: 2vh; }
+  .enterButton a {
+    color: white;
+    text-decoration: none; }
+    .enterButton a:hover {
+      color: black; }
+
+@media screen and (max-width: 500px) {
+  .descriptiveP {
+    font-size: .7em; } }

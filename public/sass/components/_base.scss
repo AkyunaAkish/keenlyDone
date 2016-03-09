@@ -27,16 +27,44 @@ img, embed, object, video{
 
   .landingMid {
     color: white;
-    border: 1px solid white;
-    width: 60vw;
+    width: 80vw;
     height: 100vh;
     font-size: 2em;
     margin: 0 auto;
     text-align: center;
+    overflow: scroll;
+    text-shadow: 2px 2px dodgerblue;
 
-    .descriptiveP {
-      color: green;
+
+
+    .firstDescriptiveP {
+      margin-top: 5vh;
     }
+
+    .secondDescriptiveP {
+      margin-top: 2vh;
+    }
+
+
   }
 
+}
+
+.enterButton {
+   background: dodgerblue;
+   border: none;
+   margin-top: 2vh;
+  a {
+    color: white;
+    text-decoration: none;
+    &:hover {
+      color: rgb(0,0,0);
+    }
+
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+  .descriptiveP { font-size: .7em; }
 }
